@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactoryshuang"
+		},
+		"ls_blob_storageaccountshuang_connectionString": {
+			"value": ""
+		},
+		"ls_dl_datalakeshuang_accountKey": {
+			"value": ""
+		},
+		"ls_dl_datalakeshuang_properties_typeProperties_url": {
+			"value": "https://datalakeshuang.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
